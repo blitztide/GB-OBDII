@@ -24,7 +24,9 @@ GB-OBDII is a hardware/software project where OBD-II scanning functionality is a
 Included in this library are the following functions:
 
 StrCpy - Copy from DE to HL until 0x00 incrementing HL and DE
+
 MemCpy - Copy from DE to HL for BC bytes
+
 WaitVBlank - Wait until rLY==144 then return
 
 #### Menu System
