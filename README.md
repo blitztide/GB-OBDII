@@ -19,9 +19,19 @@ GB-OBDII is a hardware/software project where OBD-II scanning functionality is a
 
 ### GB Cartridge firmware
 
+#### Libraries
+##### Standard Functions
+Included in this library are the following functions:
+
+StrCpy - Copy from DE to HL until 0x00 incrementing HL and DE
+MemCpy - Copy from DE to HL for BC bytes
+WaitVBlank - Wait until rLY==144 then return
+
+#### Menu System
+
 ### Microcontroller firmware
 
 ## References
-[GB ASM Programming Guide](https://eldred.fr/gb-asm-tutorial/index.html)
-
-[GBCPU manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf)
+1. [GB ASM Programming Guide](https://eldred.fr/gb-asm-tutorial/index.html)
+2. [GBCPU manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf)
+3. [GB Programming Manual](http://www.chrisantonellis.com/files/gameboy/gb-programming-manual.pdf)
