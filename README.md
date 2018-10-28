@@ -20,6 +20,11 @@ WIP, not sure if going for fully custom board or a modified MBC5 cartridge with 
 ### Custom OBD-II Daughterboard
 This board will be powered via the OBD-II port and will convert the OBD-II port to RS232 for connection to a PC or the intermediate uController.
 
+#### GB Link Cable Adapter
+We will be utilising the following GB link cable adapter from PALMR throughout the project, they are available to order through OSH Park.
+
+<img src="https://raw.githubusercontent.com/Palmr/gb-link-cable/master/images/with-headers.jpg">
+
 #### AllPro Adapter
 
 <img src="http://www.obddiag.net/images/allpro/AllPro.png">
@@ -29,11 +34,14 @@ The AllPro adapter is an open source OBD-II scanner that supports all ELM327 com
 This is currently planned to be an ATMega328P due to previous experience with the platform.
 We will be using this uController to convert the Gameboy link cable connection to a RS232 connection.
 
+#### Custom PCB
+WIP
+
 ## Software
 
 ### GB Cartridge firmware
 #### Menus
-
+WIP
 #### Libraries
 ##### Standard Functions
 Included in this library are the following functions:
@@ -45,11 +53,15 @@ MemCpy - Copy from DE to HL for BC bytes
 WaitVBlank - Wait until rLY==144 then return
 
 #### Menu System
+WIP
 
 ### Microcontroller firmware
+#### ATMega328P
+We Will be using the Arduino bootloader and the ArdOBD library to interface with the AllPro Adapter, We will also use a custom library to interface with the GB Link cable.
 
 ## References
 1. [GB ASM Programming Guide](https://eldred.fr/gb-asm-tutorial/index.html)
 2. [GBCPU manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf)
 3. [GB Programming Manual](http://www.chrisantonellis.com/files/gameboy/gb-programming-manual.pdf)
 4. [AllPro](http://www.obddiag.net/allpro.html)
+5. [GB Link Cable](https://github.com/Palmr/gb-link-cable)
