@@ -58,6 +58,12 @@ WIP
 ### Microcontroller firmware
 #### ATMega328P
 We Will be using the Arduino bootloader and the ArdOBD library to interface with the AllPro Adapter, We will also use a custom library to interface with the GB Link cable.
+##### Flashing
+ICSP headers are on the board to program the device using a USBASP.
+#### AllPro OBDII
+This will use the original firmware provided at [OBDDiag.net](http://www.obddiag.net/allpro.html)
+##### Flashing
+we can program the AllPro chip using the reccomended tools of a USB-Serial cable and the [Flash Magic](http://www.flashmagictool.com/) Tool. The image file is referenced at the bottom of this document.
 
 ## References
 1. [GB ASM Programming Guide](https://eldred.fr/gb-asm-tutorial/index.html)
@@ -65,3 +71,5 @@ We Will be using the Arduino bootloader and the ArdOBD library to interface with
 3. [GB Programming Manual](http://www.chrisantonellis.com/files/gameboy/gb-programming-manual.pdf)
 4. [AllPro](http://www.obddiag.net/allpro.html)
 5. [GB Link Cable](https://github.com/Palmr/gb-link-cable)
+5. [AllPro Image File](http://www.obddiag.net/allpro/allpro-hex.zip)
+6. [Flash magic](http://www.flashmagictool.com/)
