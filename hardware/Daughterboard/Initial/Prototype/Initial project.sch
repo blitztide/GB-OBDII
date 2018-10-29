@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Initial project-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 19685 9046
@@ -337,17 +338,6 @@ Wire Wire Line
 Text Label 11100 2350 0    10   ~ 0
 TXD
 Wire Wire Line
-	9200 5950 10100 5950
-Wire Wire Line
-	9900 5450 10100 5450
-Wire Wire Line
-	10100 5450 10100 5950
-Wire Wire Line
-	10100 5450 10400 5450
-Connection ~ 10100 5450
-Text Label 9650 5950 0    70   ~ 0
-TXD
-Wire Wire Line
 	12700 3050 12800 3050
 Wire Wire Line
 	12800 3050 12800 2850
@@ -459,12 +449,6 @@ Wire Wire Line
 Wire Wire Line
 	16800 3350 16800 3550
 Text Label 16900 3350 0    10   ~ 0
-GND
-Wire Wire Line
-	18200 4450 18200 4550
-Wire Wire Line
-	18200 4450 18400 4450
-Text Label 18200 4450 0    10   ~ 0
 GND
 Wire Wire Line
 	17500 2850 17700 2850
@@ -583,27 +567,8 @@ Wire Wire Line
 Connection ~ 17500 5650
 Connection ~ 17600 4250
 Connection ~ 17000 5650
-Wire Wire Line
-	9200 5850 10000 5850
-Wire Wire Line
-	10000 5850 10000 5350
-Wire Wire Line
-	10000 5350 10000 5250
-Wire Wire Line
-	9900 5350 10000 5350
-Wire Wire Line
-	10000 5250 10400 5250
-Text Label 9600 5850 0    70   ~ 0
-RXD
-Connection ~ 10000 5350
-Wire Wire Line
-	11200 2350 11200 2250
 Text Label 11200 2350 0    10   ~ 0
 RXD
-Wire Wire Line
-	9200 5450 9300 5450
-Wire Wire Line
-	9200 5350 9300 5350
 $Comp
 L Initial_project-eagle-import:R-US_R0805 R2
 U 1 0 3C87C76EE0EF9D6C
@@ -616,10 +581,10 @@ F 3 "" H 9200 2050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+12V #P+6
+L Initial_project-eagle-import:+12V #P+06
 U 1 0 5DDE0B8BB0F39303
 P 16400 2050
-F 0 "#P+6" H 16400 2050 50  0001 C CNN
+F 0 "#P+06" H 16400 2050 50  0001 C CNN
 F 1 "+12V" V 16300 1850 59  0000 L BNN
 F 2 "" H 16400 2050 50  0001 C CNN
 F 3 "" H 16400 2050 50  0001 C CNN
@@ -627,10 +592,10 @@ F 3 "" H 16400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND11
+L Initial_project-eagle-import:GND #GND011
 U 1 0 25F2C17319DA8D48
 P 15600 3950
-F 0 "#GND11" H 15600 3950 50  0001 C CNN
+F 0 "#GND011" H 15600 3950 50  0001 C CNN
 F 1 "GND" H 15500 3850 59  0001 L BNN
 F 2 "" H 15600 3950 50  0001 C CNN
 F 3 "" H 15600 3950 50  0001 C CNN
@@ -693,10 +658,10 @@ F 3 "" H 13800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND22
+L Initial_project-eagle-import:GND #GND022
 U 1 0 5219B01CFB1CD9CF
 P 13800 5050
-F 0 "#GND22" H 13800 5050 50  0001 C CNN
+F 0 "#GND022" H 13800 5050 50  0001 C CNN
 F 1 "GND" H 13700 4950 59  0001 L BNN
 F 2 "" H 13800 5050 50  0001 C CNN
 F 3 "" H 13800 5050 50  0001 C CNN
@@ -715,10 +680,10 @@ F 3 "" H 16400 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Initial_project-eagle-import:V+ #P+2
+L Initial_project-eagle-import:V+ #P+02
 U 1 0 C99AF61D0B24819
 P 11800 6350
-F 0 "#P+2" H 11800 6350 50  0001 C CNN
+F 0 "#P+02" H 11800 6350 50  0001 C CNN
 F 1 "Vbat" V 11700 6250 59  0000 L BNN
 F 2 "" H 11800 6350 50  0001 C CNN
 F 3 "" H 11800 6350 50  0001 C CNN
@@ -759,10 +724,10 @@ F 3 "" H 12200 6350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND6
+L Initial_project-eagle-import:GND #GND06
 U 1 0 714A278CA07C0193
 P 12500 7150
-F 0 "#GND6" H 12500 7150 50  0001 C CNN
+F 0 "#GND06" H 12500 7150 50  0001 C CNN
 F 1 "GND" H 12400 7050 59  0001 L BNN
 F 2 "" H 12500 7150 50  0001 C CNN
 F 3 "" H 12500 7150 50  0001 C CNN
@@ -770,10 +735,10 @@ F 3 "" H 12500 7150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:V+ #P+3
+L Initial_project-eagle-import:V+ #P+03
 U 1 0 1A156B2FE3DFFC3C
 P 17600 2050
-F 0 "#P+3" H 17600 2050 50  0001 C CNN
+F 0 "#P+03" H 17600 2050 50  0001 C CNN
 F 1 "Vbat" V 17500 1950 59  0000 L BNN
 F 2 "" H 17600 2050 50  0001 C CNN
 F 3 "" H 17600 2050 50  0001 C CNN
@@ -792,10 +757,10 @@ F 3 "" H 15600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND24
+L Initial_project-eagle-import:GND #GND024
 U 1 0 D2BA7EC8664B2FAE
 P 15600 5350
-F 0 "#GND24" H 15600 5350 50  0001 C CNN
+F 0 "#GND024" H 15600 5350 50  0001 C CNN
 F 1 "GND" H 15500 5250 59  0001 L BNN
 F 2 "" H 15600 5350 50  0001 C CNN
 F 3 "" H 15600 5350 50  0001 C CNN
@@ -803,10 +768,10 @@ F 3 "" H 15600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND12
+L Initial_project-eagle-import:GND #GND012
 U 1 0 E034864A5F18D96
 P 8800 3550
-F 0 "#GND12" H 8800 3550 50  0001 C CNN
+F 0 "#GND012" H 8800 3550 50  0001 C CNN
 F 1 "GND" H 8700 3450 59  0001 L BNN
 F 2 "" H 8800 3550 50  0001 C CNN
 F 3 "" H 8800 3550 50  0001 C CNN
@@ -814,10 +779,10 @@ F 3 "" H 8800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND10
+L Initial_project-eagle-import:GND #GND010
 U 1 0 F47101845C69E3
 P 14300 7150
-F 0 "#GND10" H 14300 7150 50  0001 C CNN
+F 0 "#GND010" H 14300 7150 50  0001 C CNN
 F 1 "GND" H 14200 7050 59  0001 L BNN
 F 2 "" H 14300 7150 50  0001 C CNN
 F 3 "" H 14300 7150 50  0001 C CNN
@@ -880,10 +845,10 @@ F 3 "" H 9200 1750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+10
+L Initial_project-eagle-import:+5V #P+010
 U 1 0 2D615FA999CC31BE
 P 8900 1550
-F 0 "#P+10" H 8900 1550 50  0001 C CNN
+F 0 "#P+010" H 8900 1550 50  0001 C CNN
 F 1 "+5V" V 8810 1580 59  0000 L BNN
 F 2 "" H 8900 1550 50  0001 C CNN
 F 3 "" H 8900 1550 50  0001 C CNN
@@ -924,10 +889,10 @@ F 3 "" H 14800 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+12V #P+8
+L Initial_project-eagle-import:+12V #P+08
 U 1 0 4B9514A1B54CCCBB
 P 16500 4050
-F 0 "#P+8" H 16500 4050 50  0001 C CNN
+F 0 "#P+08" H 16500 4050 50  0001 C CNN
 F 1 "+12V" V 16640 4030 59  0000 L BNN
 F 2 "" H 16500 4050 50  0001 C CNN
 F 3 "" H 16500 4050 50  0001 C CNN
@@ -979,10 +944,10 @@ F 3 "" H 11600 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND4
+L Initial_project-eagle-import:GND #GND04
 U 1 0 4B4BE4C0D896219B
 P 11600 5450
-F 0 "#GND4" H 11600 5450 50  0001 C CNN
+F 0 "#GND04" H 11600 5450 50  0001 C CNN
 F 1 "GND" H 11500 5350 59  0001 L BNN
 F 2 "" H 11600 5450 50  0001 C CNN
 F 3 "" H 11600 5450 50  0001 C CNN
@@ -990,10 +955,10 @@ F 3 "" H 11600 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND26
+L Initial_project-eagle-import:GND #GND026
 U 1 0 9DF08A589E0685E6
 P 9900 1750
-F 0 "#GND26" H 9900 1750 50  0001 C CNN
+F 0 "#GND026" H 9900 1750 50  0001 C CNN
 F 1 "GND" H 9800 1650 59  0001 L BNN
 F 2 "" H 9900 1750 50  0001 C CNN
 F 3 "" H 9900 1750 50  0001 C CNN
@@ -1012,10 +977,10 @@ F 3 "" H 9800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND5
+L Initial_project-eagle-import:GND #GND05
 U 1 0 D2D9FA1DEF27308A
 P 9800 3750
-F 0 "#GND5" H 9800 3750 50  0001 C CNN
+F 0 "#GND05" H 9800 3750 50  0001 C CNN
 F 1 "GND" H 9700 3650 59  0001 L BNN
 F 2 "" H 9800 3750 50  0001 C CNN
 F 3 "" H 9800 3750 50  0001 C CNN
@@ -1023,21 +988,10 @@ F 3 "" H 9800 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:LPC1517JBD48 IC1
-U 1 0 7C8C299E06F92037
-P 11600 3550
-F 0 "IC1" V 11700 3600 70  0000 R TNN
-F 1 "LPC1517JBD48" V 11350 3950 70  0000 R TNN
-F 2 "Initial project:LQFP48" H 11600 3550 50  0001 C CNN
-F 3 "" H 11600 3550 50  0001 C CNN
-	1    11600 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Initial_project-eagle-import:+3V3 #+3V1
+L Initial_project-eagle-import:+3V3 #+3V01
 U 1 0 B2DE5E0C406B5002
 P 10800 4850
-F 0 "#+3V1" H 10800 4850 50  0001 C CNN
+F 0 "#+3V01" H 10800 4850 50  0001 C CNN
 F 1 "+3V3" V 10700 4650 59  0000 L BNN
 F 2 "" H 10800 4850 50  0001 C CNN
 F 3 "" H 10800 4850 50  0001 C CNN
@@ -1045,10 +999,10 @@ F 3 "" H 10800 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+3V3 #+3V2
+L Initial_project-eagle-import:+3V3 #+3V02
 U 1 0 9A50822337D36547
 P 9800 2750
-F 0 "#+3V2" H 9800 2750 50  0001 C CNN
+F 0 "#+3V02" H 9800 2750 50  0001 C CNN
 F 1 "+3V3" V 9700 2650 59  0000 L BNN
 F 2 "" H 9800 2750 50  0001 C CNN
 F 3 "" H 9800 2750 50  0001 C CNN
@@ -1056,10 +1010,10 @@ F 3 "" H 9800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+4
+L Initial_project-eagle-import:+5V #P+04
 U 1 0 9CDE3F88A7FDB2D8
 P 13800 3950
-F 0 "#P+4" H 13800 3950 50  0001 C CNN
+F 0 "#P+04" H 13800 3950 50  0001 C CNN
 F 1 "+5V" V 13710 3990 59  0000 L BNN
 F 2 "" H 13800 3950 50  0001 C CNN
 F 3 "" H 13800 3950 50  0001 C CNN
@@ -1078,10 +1032,10 @@ F 3 "" H 15000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+1
+L Initial_project-eagle-import:+5V #P+01
 U 1 0 93600057BCDF72C5
 P 15400 2150
-F 0 "#P+1" H 15400 2150 50  0001 C CNN
+F 0 "#P+01" H 15400 2150 50  0001 C CNN
 F 1 "+5V" V 15310 2030 59  0000 L BNN
 F 2 "" H 15400 2150 50  0001 C CNN
 F 3 "" H 15400 2150 50  0001 C CNN
@@ -1089,10 +1043,10 @@ F 3 "" H 15400 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+3V3 #+3V3
+L Initial_project-eagle-import:+3V3 #+3V03
 U 1 0 39E80044A56F219E
 P 14400 2150
-F 0 "#+3V3" H 14400 2150 50  0001 C CNN
+F 0 "#+3V03" H 14400 2150 50  0001 C CNN
 F 1 "+3V3" V 14540 2070 59  0000 L BNN
 F 2 "" H 14400 2150 50  0001 C CNN
 F 3 "" H 14400 2150 50  0001 C CNN
@@ -1100,10 +1054,10 @@ F 3 "" H 14400 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND15
+L Initial_project-eagle-import:GND #GND015
 U 1 0 CBE454F257B06B4
 P 11400 5050
-F 0 "#GND15" H 11400 5050 50  0001 C CNN
+F 0 "#GND015" H 11400 5050 50  0001 C CNN
 F 1 "GND" H 11300 4950 59  0001 L BNN
 F 2 "" H 11400 5050 50  0001 C CNN
 F 3 "" H 11400 5050 50  0001 C CNN
@@ -1111,10 +1065,10 @@ F 3 "" H 11400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND3
+L Initial_project-eagle-import:GND #GND03
 U 1 0 21A7002F7679BDCC
 P 11900 1850
-F 0 "#GND3" H 11900 1850 50  0001 C CNN
+F 0 "#GND03" H 11900 1850 50  0001 C CNN
 F 1 "GND" H 11800 1750 59  0001 L BNN
 F 2 "" H 11900 1850 50  0001 C CNN
 F 3 "" H 11900 1850 50  0001 C CNN
@@ -1122,10 +1076,10 @@ F 3 "" H 11900 1850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+3V3 #+3V4
+L Initial_project-eagle-import:+3V3 #+3V04
 U 1 0 39A60254E81106EE
 P 13200 1150
-F 0 "#+3V4" H 13200 1150 50  0001 C CNN
+F 0 "#+3V04" H 13200 1150 50  0001 C CNN
 F 1 "+3V3" V 13100 950 59  0000 L BNN
 F 2 "" H 13200 1150 50  0001 C CNN
 F 3 "" H 13200 1150 50  0001 C CNN
@@ -1144,10 +1098,10 @@ F 3 "" H 11800 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND19
+L Initial_project-eagle-import:GND #GND019
 U 1 0 906FD9F448B3EBD8
 P 11600 1650
-F 0 "#GND19" H 11600 1650 50  0001 C CNN
+F 0 "#GND019" H 11600 1650 50  0001 C CNN
 F 1 "GND" H 11500 1550 59  0001 L BNN
 F 2 "" H 11600 1650 50  0001 C CNN
 F 3 "" H 11600 1650 50  0001 C CNN
@@ -1155,10 +1109,10 @@ F 3 "" H 11600 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND21
+L Initial_project-eagle-import:GND #GND021
 U 1 0 C987055BCF593DC2
 P 14400 3650
-F 0 "#GND21" H 14400 3650 50  0001 C CNN
+F 0 "#GND021" H 14400 3650 50  0001 C CNN
 F 1 "GND" H 14300 3550 59  0001 L BNN
 F 2 "" H 14400 3650 50  0001 C CNN
 F 3 "" H 14400 3650 50  0001 C CNN
@@ -1177,10 +1131,10 @@ F 3 "" H 17600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND23
+L Initial_project-eagle-import:GND #GND023
 U 1 0 A861C119C7080FD3
 P 12800 2750
-F 0 "#GND23" H 12800 2750 50  0001 C CNN
+F 0 "#GND023" H 12800 2750 50  0001 C CNN
 F 1 "GND" H 12700 2650 59  0001 L BNN
 F 2 "" H 12800 2750 50  0001 C CNN
 F 3 "" H 12800 2750 50  0001 C CNN
@@ -1199,10 +1153,10 @@ F 3 "" H 13200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND2
+L Initial_project-eagle-import:GND #GND02
 U 1 0 350FEA2913A376EC
 P 13200 3850
-F 0 "#GND2" H 13200 3850 50  0001 C CNN
+F 0 "#GND02" H 13200 3850 50  0001 C CNN
 F 1 "GND" H 13100 3750 59  0001 L BNN
 F 2 "" H 13200 3850 50  0001 C CNN
 F 3 "" H 13200 3850 50  0001 C CNN
@@ -1210,10 +1164,10 @@ F 3 "" H 13200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND25
+L Initial_project-eagle-import:GND #GND025
 U 1 0 824694312EE633C3
 P 17600 4850
-F 0 "#GND25" H 17600 4850 50  0001 C CNN
+F 0 "#GND025" H 17600 4850 50  0001 C CNN
 F 1 "GND" H 17500 4750 59  0001 L BNN
 F 2 "" H 17600 4850 50  0001 C CNN
 F 3 "" H 17600 4850 50  0001 C CNN
@@ -1232,10 +1186,10 @@ F 3 "" H 12900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND27
+L Initial_project-eagle-import:GND #GND027
 U 1 0 2524E78419D9C11
 P 12900 2150
-F 0 "#GND27" H 12900 2150 50  0001 C CNN
+F 0 "#GND027" H 12900 2150 50  0001 C CNN
 F 1 "GND" H 12800 2050 59  0001 L BNN
 F 2 "" H 12900 2150 50  0001 C CNN
 F 3 "" H 12900 2150 50  0001 C CNN
@@ -1243,10 +1197,10 @@ F 3 "" H 12900 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND17
+L Initial_project-eagle-import:GND #GND017
 U 1 0 A9D98BED0A5A0AC8
 P 17000 6850
-F 0 "#GND17" H 17000 6850 50  0001 C CNN
+F 0 "#GND017" H 17000 6850 50  0001 C CNN
 F 1 "GND" H 16900 6750 59  0001 L BNN
 F 2 "" H 17000 6850 50  0001 C CNN
 F 3 "" H 17000 6850 50  0001 C CNN
@@ -1298,10 +1252,10 @@ F 3 "" H 15100 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND9
+L Initial_project-eagle-import:GND #GND09
 U 1 0 92D8EA4928DF91D
 P 15100 7150
-F 0 "#GND9" H 15100 7150 50  0001 C CNN
+F 0 "#GND09" H 15100 7150 50  0001 C CNN
 F 1 "GND" H 15000 7050 59  0001 L BNN
 F 2 "" H 15100 7150 50  0001 C CNN
 F 3 "" H 15100 7150 50  0001 C CNN
@@ -1309,10 +1263,10 @@ F 3 "" H 15100 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+11
+L Initial_project-eagle-import:+5V #P+011
 U 1 0 786B5FD0FBD5C941
 P 14500 5250
-F 0 "#P+11" H 14500 5250 50  0001 C CNN
+F 0 "#P+011" H 14500 5250 50  0001 C CNN
 F 1 "+5V" V 14580 5160 59  0000 L BNN
 F 2 "" H 14500 5250 50  0001 C CNN
 F 3 "" H 14500 5250 50  0001 C CNN
@@ -1342,10 +1296,10 @@ F 3 "" H 17000 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND16
+L Initial_project-eagle-import:GND #GND016
 U 1 0 8316678299D4D269
 P 17000 5350
-F 0 "#GND16" H 17000 5350 50  0001 C CNN
+F 0 "#GND016" H 17000 5350 50  0001 C CNN
 F 1 "GND" H 16900 5250 59  0001 L BNN
 F 2 "" H 17000 5350 50  0001 C CNN
 F 3 "" H 17000 5350 50  0001 C CNN
@@ -1397,10 +1351,10 @@ F 3 "" H 14000 5650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+3V3 #+3V5
+L Initial_project-eagle-import:+3V3 #+3V05
 U 1 0 499E1510D30003A2
 P 14300 5250
-F 0 "#+3V5" H 14300 5250 50  0001 C CNN
+F 0 "#+3V05" H 14300 5250 50  0001 C CNN
 F 1 "+3V3" V 14170 5220 59  0000 R TNN
 F 2 "" H 14300 5250 50  0001 C CNN
 F 3 "" H 14300 5250 50  0001 C CNN
@@ -1430,10 +1384,10 @@ F 3 "" H 13300 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND7
+L Initial_project-eagle-import:GND #GND07
 U 1 0 C51381239CDE76EF
 P 13300 6750
-F 0 "#GND7" H 13300 6750 50  0001 C CNN
+F 0 "#GND07" H 13300 6750 50  0001 C CNN
 F 1 "GND" H 13200 6650 59  0001 L BNN
 F 2 "" H 13300 6750 50  0001 C CNN
 F 3 "" H 13300 6750 50  0001 C CNN
@@ -1452,10 +1406,10 @@ F 3 "" H 17200 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND8
+L Initial_project-eagle-import:GND #GND08
 U 1 0 167E2C6ADF24F9E8
 P 17600 3650
-F 0 "#GND8" H 17600 3650 50  0001 C CNN
+F 0 "#GND08" H 17600 3650 50  0001 C CNN
 F 1 "GND" H 17500 3550 59  0001 L BNN
 F 2 "" H 17600 3650 50  0001 C CNN
 F 3 "" H 17600 3650 50  0001 C CNN
@@ -1463,69 +1417,14 @@ F 3 "" H 17600 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND14
+L Initial_project-eagle-import:GND #GND014
 U 1 0 E847186D109F320A
 P 16800 3650
-F 0 "#GND14" H 16800 3650 50  0001 C CNN
+F 0 "#GND014" H 16800 3650 50  0001 C CNN
 F 1 "GND" H 16700 3550 59  0001 L BNN
 F 2 "" H 16800 3650 50  0001 C CNN
 F 3 "" H 16800 3650 50  0001 C CNN
 	1    16800 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Initial_project-eagle-import:M02PTH J2
-U 1 0 9C1E943F2D55355
-P 8900 5950
-F 0 "J2" H 8870 5720 59  0000 L BNN
-F 1 "M02PTH" H 8800 5750 59  0000 L BNN
-F 2 "Initial project:1X02" H 8900 5950 50  0001 C CNN
-F 3 "" H 8900 5950 50  0001 C CNN
-	1    8900 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Initial_project-eagle-import:JP2Q JP1
-U 1 0 848DA6002F430EF2
-P 9600 5450
-F 0 "JP1" V 9910 5380 59  0000 L BNN
-F 1 "JP2Q" V 9875 5250 59  0000 L BNN
-F 2 "Initial project:JP2Q" H 9600 5450 50  0001 C CNN
-F 3 "" H 9600 5450 50  0001 C CNN
-	1    9600 5450
-	0    1    -1   0   
-$EndComp
-$Comp
-L Initial_project-eagle-import:M081X08 J1
-U 1 0 283100E32CE6A523
-P 9000 5150
-F 0 "J1" H 8870 5690 59  0000 L BNN
-F 1 "M081X08" H 8800 4650 59  0000 L BNN
-F 2 "Initial project:1X08" H 9000 5150 50  0001 C CNN
-F 3 "" H 9000 5150 50  0001 C CNN
-	1    9000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Initial_project-eagle-import:GND #GND20
-U 1 0 1D4613EF2DF12463
-P 18200 4650
-F 0 "#GND20" H 18200 4650 50  0001 C CNN
-F 1 "GND" H 18100 4550 59  0001 L BNN
-F 2 "" H 18200 4650 50  0001 C CNN
-F 3 "" H 18200 4650 50  0001 C CNN
-	1    18200 4650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Initial_project-eagle-import:M10" J5
-U 1 0 5E54C2290A445BA9
-P 18800 4350
-F 0 "J5" H 18880 4700 59  0000 L BNN
-F 1 "M10\"" H 18800 3450 59  0001 L BNN
-F 2 "Initial project:1X10" H 18800 4350 50  0001 C CNN
-F 3 "" H 18800 4350 50  0001 C CNN
-	1    18800 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1540,21 +1439,10 @@ F 3 "" H 14000 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:M06SIP J6
-U 1 0 9DDCF6EC8E9E0148
-P 18600 6050
-F 0 "J6" H 18340 6500 59  0000 L BNN
-F 1 "M06SIP" H 18400 5650 59  0000 L BNN
-F 2 "Initial project:1X06" H 18600 6050 50  0001 C CNN
-F 3 "" H 18600 6050 50  0001 C CNN
-	1    18600 6050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Initial_project-eagle-import:GND #GND1
+L Initial_project-eagle-import:GND #GND01
 U 1 0 6F68935FDB8695AC
 P 17800 2850
-F 0 "#GND1" H 17800 2850 50  0001 C CNN
+F 0 "#GND01" H 17800 2850 50  0001 C CNN
 F 1 "GND" H 17700 2750 59  0001 L BNN
 F 2 "" H 17800 2850 50  0001 C CNN
 F 3 "" H 17800 2850 50  0001 C CNN
@@ -1562,10 +1450,10 @@ F 3 "" H 17800 2850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND13
+L Initial_project-eagle-import:GND #GND013
 U 1 0 1DDAFC179E3D6951
 P 13700 2150
-F 0 "#GND13" H 13700 2150 50  0001 C CNN
+F 0 "#GND013" H 13700 2150 50  0001 C CNN
 F 1 "GND" H 13600 2050 59  0001 L BNN
 F 2 "" H 13700 2150 50  0001 C CNN
 F 3 "" H 13700 2150 50  0001 C CNN
@@ -1573,10 +1461,10 @@ F 3 "" H 13700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+5
+L Initial_project-eagle-import:+5V #P+05
 U 1 0 708E00B833ACA7EC
 P 13400 1150
-F 0 "#P+5" H 13400 1150 50  0001 C CNN
+F 0 "#P+05" H 13400 1150 50  0001 C CNN
 F 1 "+5V" V 13310 1190 59  0000 L BNN
 F 2 "" H 13400 1150 50  0001 C CNN
 F 3 "" H 13400 1150 50  0001 C CNN
@@ -1595,10 +1483,10 @@ F 3 "" H 17000 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+12V #P+7
+L Initial_project-eagle-import:+12V #P+07
 U 1 0 21A83AE6BC2DCEA9
 P 14600 1050
-F 0 "#P+7" H 14600 1050 50  0001 C CNN
+F 0 "#P+07" H 14600 1050 50  0001 C CNN
 F 1 "+12V" V 14500 850 59  0000 L BNN
 F 2 "" H 14600 1050 50  0001 C CNN
 F 3 "" H 14600 1050 50  0001 C CNN
@@ -1628,10 +1516,10 @@ F 3 "" H 14700 3850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Initial_project-eagle-import:+5V #P+9
+L Initial_project-eagle-import:+5V #P+09
 U 1 0 8991BC0540F2EFD
 P 15100 3850
-F 0 "#P+9" H 15100 3850 50  0001 C CNN
+F 0 "#P+09" H 15100 3850 50  0001 C CNN
 F 1 "+5V" V 15000 3700 59  0000 L BNN
 F 2 "" H 15100 3850 50  0001 C CNN
 F 3 "" H 15100 3850 50  0001 C CNN
@@ -1650,10 +1538,10 @@ F 3 "" H 13400 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Initial_project-eagle-import:GND #GND18
+L Initial_project-eagle-import:GND #GND018
 U 1 0 15FCDF69E0081D19
 P 13400 2150
-F 0 "#GND18" H 13400 2150 50  0001 C CNN
+F 0 "#GND018" H 13400 2150 50  0001 C CNN
 F 1 "GND" H 13300 2050 59  0001 L BNN
 F 2 "" H 13400 2150 50  0001 C CNN
 F 3 "" H 13400 2150 50  0001 C CNN
@@ -1672,4 +1560,270 @@ Wire Notes Line style solid rgb(72, 0, 0)
 	19450 8600 300  8600
 Wire Notes Line style solid rgb(132, 0, 0)
 	300  8600 300  200 
+$Comp
+L Initial_project-eagle-import:LPC1517JBD48 IC1
+U 1 0 7C8C299E06F92037
+P 11600 3550
+F 0 "IC1" V 11700 3600 70  0000 R TNN
+F 1 "LPC1517JBD48" V 11350 3950 70  0000 R TNN
+F 2 "Initial project:LQFP48" H 11600 3550 50  0001 C CNN
+F 3 "" H 11600 3550 50  0001 C CNN
+	1    11600 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328-PU U1
+U 1 1 5BDA8469
+P 4950 3700
+F 0 "U1" H 4309 3746 50  0000 R CNN
+F 1 "ATmega328-PU" H 4309 3655 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 4950 3700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 2550
+Wire Wire Line
+	7750 2550 10350 2550
+Wire Wire Line
+	10350 2550 10350 2250
+Wire Wire Line
+	10350 2250 11100 2250
+Wire Wire Line
+	11200 2200 10300 2200
+Wire Wire Line
+	10300 2200 10300 2600
+Wire Wire Line
+	10300 2600 7850 2600
+Wire Wire Line
+	7850 2600 7850 4300
+Wire Wire Line
+	7850 4300 5550 4300
+Wire Wire Line
+	11200 2200 11200 2350
+Text GLabel 5700 6100 0    50   Input ~ 0
+Vbatt
+$Comp
+L Regulator_Linear:L7805 U2
+U 1 1 5BDE974F
+P 6350 6100
+F 0 "U2" H 6350 6342 50  0000 C CNN
+F 1 "L7805" H 6350 6251 50  0000 C CNN
+F 2 "" H 6375 5950 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 6050 50  0001 C CNN
+	1    6350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5BDF67E6
+P 5850 6250
+F 0 "C14" H 5965 6296 50  0000 L CNN
+F 1 "0.33uC" H 5965 6205 50  0000 L CNN
+F 2 "" H 5888 6100 50  0001 C CNN
+F 3 "~" H 5850 6250 50  0001 C CNN
+	1    5850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5BDF68B4
+P 6900 6250
+F 0 "C17" H 7015 6296 50  0000 L CNN
+F 1 "0.1uC" H 7015 6205 50  0000 L CNN
+F 2 "" H 6938 6100 50  0001 C CNN
+F 3 "~" H 6900 6250 50  0001 C CNN
+	1    6900 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6100 5850 6100
+Wire Wire Line
+	6050 6100 5850 6100
+Connection ~ 5850 6100
+Wire Wire Line
+	5850 6400 5850 6550
+Wire Wire Line
+	5850 6550 6350 6550
+Wire Wire Line
+	6350 6550 6350 6400
+Wire Wire Line
+	6900 6400 6900 6550
+Wire Wire Line
+	6900 6550 6350 6550
+Connection ~ 6350 6550
+Wire Wire Line
+	6900 6100 6650 6100
+Wire Wire Line
+	4950 5200 4950 5300
+Wire Wire Line
+	4950 6550 5850 6550
+Connection ~ 5850 6550
+Wire Wire Line
+	6900 6100 7750 6100
+Connection ~ 6900 6100
+Text GLabel 7750 6100 2    50   Output ~ 0
+5V
+Text GLabel 4300 2200 0    50   Input ~ 0
+5V
+Wire Wire Line
+	5050 2250 5050 2200
+Wire Wire Line
+	5050 2200 4950 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	4950 2200 4350 2200
+Wire Wire Line
+	4350 2200 4350 2500
+Connection ~ 4950 2200
+Wire Wire Line
+	4350 2200 4300 2200
+Connection ~ 4350 2200
+$Comp
+L Device:Crystal X2
+U 1 1 5BEC32EF
+P 6250 3150
+F 0 "X2" V 6204 3281 50  0000 L CNN
+F 1 "16MHZ" V 6295 3281 50  0000 L CNN
+F 2 "" H 6250 3150 50  0001 C CNN
+F 3 "~" H 6250 3150 50  0001 C CNN
+	1    6250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5BEC3407
+P 6100 3000
+F 0 "C15" V 5848 3000 50  0000 C CNN
+F 1 "22pF" V 5939 3000 50  0000 C CNN
+F 2 "" H 6138 2850 50  0001 C CNN
+F 3 "~" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5BEC350C
+P 6100 3300
+F 0 "C16" V 6352 3300 50  0000 C CNN
+F 1 "22pF" V 6261 3300 50  0000 C CNN
+F 2 "" H 6138 3150 50  0001 C CNN
+F 3 "~" H 6100 3300 50  0001 C CNN
+	1    6100 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3000 5950 3100
+Wire Wire Line
+	5950 3100 5550 3100
+Wire Wire Line
+	5550 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 3300
+$Comp
+L Connector:AVR-ISP-6 J1
+U 1 1 5BEE47ED
+P 5750 1050
+F 0 "J1" V 5333 1100 50  0000 C CNN
+F 1 "AVR-ISP-6" V 5424 1100 50  0000 C CNN
+F 2 "" V 5500 1100 50  0001 C CNN
+F 3 " ~" H 4475 500 50  0001 C CNN
+	1    5750 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 950  6250 1900
+Wire Wire Line
+	6250 1900 4350 1900
+Wire Wire Line
+	4350 1900 4350 2200
+Wire Wire Line
+	5350 950  4000 950 
+Wire Wire Line
+	4000 950  4000 5300
+Wire Wire Line
+	4000 5300 4950 5300
+Connection ~ 4950 5300
+Wire Wire Line
+	4950 5300 4950 6550
+Wire Wire Line
+	5650 1500 5650 4000
+Wire Wire Line
+	5650 4000 5550 4000
+Wire Wire Line
+	5750 1450 5750 3000
+Wire Wire Line
+	5750 3000 5550 3000
+Wire Wire Line
+	5950 1450 5950 2900
+Wire Wire Line
+	5950 2900 5550 2900
+Wire Wire Line
+	5850 1450 5850 2800
+Wire Wire Line
+	5850 2800 5550 2800
+Text GLabel 2300 2850 0    50   Input ~ 0
+5V
+Text GLabel 2300 3000 0    50   Input ~ 0
+SO
+Text GLabel 2300 3150 0    50   Input ~ 0
+SI
+Text GLabel 2300 3300 0    50   Input ~ 0
+SD
+Text GLabel 2300 3450 0    50   Input ~ 0
+SC
+Text GLabel 2300 3600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4000 5300 2500 5300
+Wire Wire Line
+	2500 5300 2500 3600
+Wire Wire Line
+	2500 3600 2300 3600
+Connection ~ 4000 5300
+Wire Wire Line
+	2300 2850 3300 2850
+Wire Wire Line
+	3300 2850 3300 1900
+Wire Wire Line
+	3300 1900 4350 1900
+Connection ~ 4350 1900
+Wire Wire Line
+	5550 4400 5650 4400
+Wire Wire Line
+	5650 4400 5650 5450
+Wire Wire Line
+	5650 5450 2750 5450
+Wire Wire Line
+	2750 5450 2750 3150
+Wire Wire Line
+	2750 3150 2300 3150
+Wire Wire Line
+	5550 4500 5750 4500
+Wire Wire Line
+	5750 4500 5750 5550
+Wire Wire Line
+	5750 5550 2850 5550
+Wire Wire Line
+	2850 5550 2850 3000
+Wire Wire Line
+	2850 3000 2300 3000
+Wire Wire Line
+	5550 4600 5900 4600
+Wire Wire Line
+	5900 4600 5900 5600
+Wire Wire Line
+	5900 5600 2950 5600
+Wire Wire Line
+	2950 5600 2950 3450
+Wire Wire Line
+	2950 3450 2300 3450
+Wire Wire Line
+	2300 3300 2500 3300
+Wire Wire Line
+	2500 3300 2500 3600
+Connection ~ 2500 3600
 $EndSCHEMATC
