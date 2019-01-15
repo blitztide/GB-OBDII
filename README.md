@@ -73,3 +73,4 @@ we can program the AllPro chip using the reccomended tools of a USB-Serial cable
 5. [GB Link Cable](https://github.com/Palmr/gb-link-cable)
 5. [AllPro Image File](http://www.obddiag.net/allpro/allpro-hex.zip)
 6. [Flash magic](http://www.flashmagictool.com/)
+7. [GBDev Github](https://github.com/gbdev/awesome-gbdev)
